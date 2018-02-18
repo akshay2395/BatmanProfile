@@ -1,0 +1,116 @@
+
+.initView {
+   position: relative;
+   background-image: url("https://www.adeogroup.ae/wp-content/uploads/2015/10/responsive-web-design-dubai.jpg");
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   margin: 0;
+}
+.initView:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+}
+
+.parallexText{
+  position: absolute;
+  font-family: 'PT Mono', monospace;
+  font-size: 1.5em;
+  color:white;
+  padding:20px;
+  border: solid 2px;
+  text-align: center;
+  z-index: 10;
+}
+
+.parallexText:hover{
+   color: #0F9187;
+}
+
+.initViewPosition{
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.bg1Position{
+  top:50%;
+  left:30%;
+  transform: translate(-50%,-30%);
+}
+
+.bg2Position{
+  top:50%;
+  left:70%;
+  transform: translate(-50%,-70%);
+}
+
+.bg1{
+    position: relative;
+    height: 100%;
+    margin: 0;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU1KDMFWMpRlhx9enTP_ULwk4aYLkigbB1UZRz1wWVa4hazryY");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bg2{
+    position: relative;
+    height: 100%;
+    margin: 0;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/2d/3b/52/2d3b5266da7e32b2625a8f3136b8d41e.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/******************navigation bar **************************/
+
+#navigationBar{
+  background-color: transparent;
+  border: none;
+  line-height: 80px;
+  transition: background-color .5s, padding-top .5s;
+}
+
+#navigationBar a{
+  font-family:'PT Mono', monospace,sans-serif;
+}
+
+#myNavbar{
+  padding-right: 50px;
+}
+#myNavbar a{
+  font-size: 1em;
+  padding-left: 16px;
+  padding-top: 30px;
+  color:#FFF;
+}
+
+#WebsiteBrand{
+  color:#FFF;
+  font-size: 1.8em;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+#myNavbar a:hover {
+  color:#0F9187;
+  box-shadow: 0px 2px #EEE;
+}
+
+.scrolled-nav{
+  padding-top: 0px!important;
+  background-color: rgba(0,0,0,0.5)!important;
+}
